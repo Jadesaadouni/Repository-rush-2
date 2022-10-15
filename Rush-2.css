@@ -4,7 +4,6 @@
 }
 .page{
     font-family:sans-serif;
-    max-width:480px;
     margin:0 auto;
     background:#000;
     color:#fff;
@@ -16,13 +15,11 @@
     padding:0 12px;
     position:fixed;
     z-index:999;
-    width:100%;
-    max-width:480px;
+    width:3%;
     background:#111;
     box-sizing:border-box;
     border-bottom:1px solid #fff;
 }
-
 .header-title{
     line-height:50px;
     font-size:22px;
@@ -69,8 +66,7 @@ li{
 #menu{
     transition:transform .5s;
     position:absolute;
-    width:100%;
-    max-width:480px;
+    width:10%;
     transform:translateY(-300px);
 
 }
@@ -78,6 +74,11 @@ li{
     transform:translateY(51px);
 }
 
-.main{
-    padding:62px 12px 12px 12px;
+.titre {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.fh {
+    margin-right: 2%;
 }
