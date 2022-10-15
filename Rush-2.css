@@ -80,8 +80,13 @@ li{
 }
 
 .fh {
+    float: right;
+}
+
+.pfh {
     margin-right: 2%;
 }
+<<<<<<< HEAD
 /*img.canap{
     width: 50 ;
 }*/
@@ -102,3 +107,15 @@ Y{
     color: grey;
     font-size: 10px;
 }
+=======
+
+.search {
+    float: left;
+    margin-top: 2%;
+    border: opacity('0');
+}
+
+.searchform {
+    border-bottom: 1px solid black;
+}
+>>>>>>> 8f7e4d50596e20d73ad503b00c70bffa36e139d2
