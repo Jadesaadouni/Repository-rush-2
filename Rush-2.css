@@ -80,5 +80,9 @@ li{
 }
 
 .fh {
+    float: right;
+}
+
+.pfh {
     margin-right: 2%;
 }
