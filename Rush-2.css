@@ -86,3 +86,13 @@ li{
 .pfh {
     margin-right: 2%;
 }
+
+.search {
+    float: left;
+    margin-top: 2%;
+    border: opacity('0');
+}
+
+.searchform {
+    border-bottom: 1px solid black;
+}
