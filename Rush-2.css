@@ -74,6 +74,7 @@ li{
     transform:translateY(51px);
 }
 
+<<<<<<< Updated upstream
 .titre {
     margin-left: 2%;
     margin-top: 1%;
@@ -179,3 +180,9 @@ table th {
 .attribution:hover {
     color: #1fa67a;
 }
+=======
+.main{
+    padding:62px 12px 12px 12px;
+}
+
+>>>>>>> Stashed changes
