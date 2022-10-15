@@ -82,3 +82,23 @@ li{
 .fh {
     margin-right: 2%;
 }
+/*img.canap{
+    width: 50 ;
+}*/
+
+M{
+    margin-left: 2%;
+}
+I{
+    margin-left: 5%;
+}
+Y{
+    margin-left: 2%;
+}
+.gras{
+    font-weight: bold;
+}
+.gris{
+    color: grey;
+    font-size: 10px;
+}
