@@ -4,21 +4,19 @@
 }
 .page{
     font-family:sans-serif;
-    margin:0 auto;
     background:#000;
     color:#fff;
     line-height:1.5;
-    position:relative;
 }
 
 .header{
     padding:0 12px;
-    position:fixed;
     z-index:999;
     width:3%;
     background:#111;
     box-sizing:border-box;
     border-bottom:1px solid #fff;
+    margin-right: 10px;
 }
 .header-title{
     line-height:50px;
@@ -36,9 +34,6 @@ li{
 }
 
 #menu-button{
-    position:absolute;
-    top:0;
-    right:0;
     width:50px;
     height:50px;
     overflow:hidden;
@@ -71,32 +66,29 @@ li{
 
 }
 #menu.show-menu{
-    transform:translateY(51px);
+    transform:translateY(0px);
 }
 
-<<<<<<< Updated upstream
+
 .titre {
     margin-left: 2%;
     margin-top: 1%;
 }
 
 .fh {
-    float: right;
+    align-items: center;
+    display: flex;
 }
 
 .pfh {
+
+    margin-right: 20px;
+    margin-left: 10px;
     margin-right: 2%;
 }
 
-M{
-    margin-left: 2%;
 }
-I{
-    margin-left: 5%;
-}
-Y{
-    margin-left: 2%;
-}
+
 .gras{
     font-weight: bold;
 }
@@ -105,68 +97,67 @@ Y{
     font-size: 10px;
 }
 
+.hdp {
+    justify-content: space-between;
+
 .search {
     margin-top: 2%;
     border: opacity('0');
 }
 
-.searchform {
-    border-bottom: 1px solid black;
+.groupetitle {
+    margin-left: 2%;
+    display : flex;
+    font-size: 10px;
+  }
+
+.titre {
+    margin-left: 15px;
+}
+.leftnav {
+   display: flex;
+    align-items: center;
 }
 
-body {
-    margin-top: 50px;
+
+#searchbar {
+    display: grid;
+    grid-template-columns: 10% 60% 20%;
+    grid-gap: 5%;
+    border: 0;
+    width: 550px;
+}
+
+.searchy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.searchies {
+    display: flex;
+    align-items: center;
+}
+
+.intsearch {
+    display: flex;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    width:100%;
+}
+
+footer {
     font-family: sans-serif;
-    background: #f1f1f1;
 }
 
-table {
-    margin: 0 auto;
-    text-align: center;
-    border-collapse: collapse;
-    border: 1px solid #d4d4d4;
-    font-size: 20px;
-    background: #fff;
-}
 
-table th,
-table tr:nth-child(2n+2) {
-    background: #e7e7e7;
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+    border:0;
+    border-bottom: 2px outset;
+    margin-right: 20px;
 }
-
-table th,
-table td {
-    padding: 20px 50px;
-}
-
-table th {
-    border-bottom: 1px solid #d4d4d4;
-}
-
-.stars-outer {
-    display: inline-block;
-    position: relative;
-    font-family: FontAwesome;
-}
-
-.stars-outer::before {
-    content: "\f006 \f006 \f006 \f006 \f006";
-}
-
-.stars-inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-}
-
-.stars-inner::before {
-    content: "\f005 \f005 \f005 \f005 \f005";
-    color: #f8ce0b;
-}
-
 .attribution {
     font-size: 12px;
     color: #444;
@@ -180,9 +171,7 @@ table th {
 .attribution:hover {
     color: #1fa67a;
 }
-=======
 .main{
     padding:62px 12px 12px 12px;
 }
 
->>>>>>> Stashed changes
