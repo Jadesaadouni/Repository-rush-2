@@ -87,13 +87,18 @@ li{
     margin-right: 2%;
 }
 
-M{
+.search {
+    margin-top: 2%;
+    border: opacity('0');
+}
+
+.searchform {
+    border-bottom: 1px solid black ;
+}
+
+p{
     margin-left: 2%;
-}
-I{
     margin-left: 5%;
-}
-Y{
     margin-left: 2%;
 }
 .gras{
@@ -104,11 +109,28 @@ Y{
     font-size: 10px;
 }
 
-.search {
-    margin-top: 2%;
-    border: opacity('0');
+.titleprice{
+    display : flex;
 }
+.color{
+    display : flex;
+}
+.titleprice{
+    justify-content: space-between;
+}
+.caddie{
+    margin-left: 192px;
+    margin-top: -20px;
+}
+.caddie2{
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.meuble{
+    gap:20px;
+    width: 25%;
+}
+.produit{
+    height:210px
 
-.searchform {
-    border-bottom: 1px solid black;
 }
