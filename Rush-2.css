@@ -81,12 +81,10 @@ li{
 }
 
 .pfh {
-
     margin-right: 20px;
     margin-left: 10px;
     margin-right: 2%;
 }
-
 
 .search {
     margin-top: 2%;
@@ -128,19 +126,19 @@ p{
     border: opacity('0');
 
 }
-.caddie{
+.caddie {
     margin-left: 192px;
     margin-top: -20px;
 }
-.caddie2{
+.caddie2 {
     margin-left: 220px;
     margin-top: 10px;
 }
-.meuble{
+.meuble {
     gap:20px;
     width: 25%;
 }
-.produit{
+.produit {
     height:210px
 
 .groupetitle {
@@ -156,7 +154,6 @@ p{
    display: flex;
     align-items: center;
 }
-
 
 #searchbar {
     display: grid;
@@ -213,11 +210,6 @@ select {
     padding:62px 12px 12px 12px;
 }
 
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
-
 .noire {
     background-color: black;
 }
->>>>>>> Stashed changes
