@@ -87,20 +87,6 @@ li{
     margin-right: 2%;
 }
 
-
-.search {
-    margin-top: 2%;
-    border: opacity('0');
-}
-
-.searchform {
-    border-bottom: 1px solid black ;
-}
-
-p{
-    margin-left: 2%;
-    margin-left: 5%;
-    margin-left: 2%;
 }
 
 .gras{
@@ -111,37 +97,13 @@ p{
     font-size: 10px;
 }
 
-.titleprice{
-    display : flex;
-}
-.color{
-    display : flex;
-}
-.titleprice{
-    justify-content: space-between;
-
 .hdp {
     justify-content: space-between;
 
 .search {
     margin-top: 2%;
     border: opacity('0');
-
 }
-.caddie{
-    margin-left: 192px;
-    margin-top: -20px;
-}
-.caddie2{
-    margin-left: 220px;
-    margin-top: 10px;
-}
-.meuble{
-    gap:20px;
-    width: 25%;
-}
-.produit{
-    height:210px
 
 .groupetitle {
     margin-left: 2%;
