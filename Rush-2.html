@@ -7,40 +7,49 @@
 </head>
 
 <header>
+    <div class="hdp" style="display : flex;">
+        <div class="leftnav">
+            <div class="page">
 
-    <div class="page">
+                <div id="menu-button" class="close"></div>
+                <nav id="menu" class="">
+                    <ul>
+                        <li>Home
+                        <li>Shop
+                        <li>Magasine
+                    </ul>
+                </nav>
+            </div>
+            <div class="groupetitle">
+                <p class="titre">HOME</p>
+                <p class="titre">SHOP</p>
+                <p class="titre">MAGAZINE</p>
+            </div>
+        </div>
 
-        <header class="header"><div id="menu-button" class="close"></div></header>
-        <nav id="menu" class="">
-            <ul>
-                <li>Home
-                <li>Shop
-                <li>Magasine
-            </ul>
-        </nav>
+        <div class="fh">
+            <img width="30" src="https://thumbs.dreamstime.com/b/trolley-icon-flat-vector-simple-isolated-illustration-signage-template-design-trendy-trolley-icon-flat-vector-template-design-179471253.jpg">
+            <p class="pfh">LOGIN</p>
+        </div>
     </div>
-    <div class="titre" style="display : flex;">
-        <p class="titre">Home</p>
-        <p class="titre">Shop</p>
-        <p class="titre">Magasine</p>
-    </div>
+    <br>
+    <div class="searchy">
+        <div class="searchies">
+            <img src="http://daweiphotography.free.fr/Images/Search.png" id="search_image">
+            <div class="intsearch">
+                <input id="searchbar" placeholder="Living room">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by&nbsp;</p><p class="gras">Algolia&nbsp;&nbsp;&nbsp;</p>
+                <img src="https://th.bing.com/th/id/R.b0a317a7f2146920be7046bdda1c7fe4?rik=q74PxJgsPU0edg&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2010%2f01%2fsettings-gear-icon_72880.png&ehk=J%2bE7%2fy%2bXDtC%2b%2bu4fAMo1y8NTlItWq6wkumH4OVg9%2fFo%3d&risl=&pid=ImgRaw&r=0"id="settings_icone" width="15">
+            </div>
+        </div>
+        <div>
 
-    <div class="fh" style="display : flex;">
-        <img width="30" src="https://thumbs.dreamstime.com/b/trolley-icon-flat-vector-simple-isolated-illustration-signage-template-design-trendy-trolley-icon-flat-vector-template-design-179471253.jpg">
-        <p class="pfh">Login</p>
-    </div>
-
-    <div class="search">
-        <form class="searchform" action="#">
-            <input type="text"
-                   placeholder="living room"
-                   name="search">
-            <button>
-                <i class="fa fa-search"
-                   style="font-size: 18px;">
-                </i>
-            </button>
-        </form>
+            <select name="pets" id="pet-select">
+                <option value="">Best Match</option>
+                <option value="incr">Price increasing</option>
+                <option value="decr">Price decreasing</option>
+            </select>
+        </div>
     </div>
 
 
@@ -48,6 +57,7 @@
 </header>
 
 <body>
+
     <div>
         <div class="meuble" style= "display : flex;">
             <div id="filterBy">
@@ -167,6 +177,7 @@
 
 
 <footer>
+
 
 </footer>
 <script src="rush-2.js"></script>
