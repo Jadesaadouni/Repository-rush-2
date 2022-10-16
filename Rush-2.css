@@ -134,3 +134,38 @@ p{
     height:210px
 
 }
+
+#filterBy{
+    color: gray;
+}
+.parameters{
+    width:110%;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.parametersArrow{
+    width: 10%;
+}
+#collection{
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid slategrey;
+    margin-top: 20px;
+}
+
+#color{
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid slategrey;
+    margin-top: 20px;
+}
+#category{
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid slategrey;
+    margin-top: 20px;
+}
+#price{
+    margin-top: 20px;
+}
