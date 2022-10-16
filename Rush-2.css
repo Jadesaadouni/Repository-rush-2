@@ -69,14 +69,23 @@ li{
     transform:translateY(0px);
 }
 
+
+.titre {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
 .fh {
     align-items: center;
     display: flex;
 }
 
 .pfh {
+
     margin-right: 20px;
     margin-left: 10px;
+    margin-right: 2%;
+}
 
 }
 
@@ -87,8 +96,13 @@ li{
     color: grey;
     font-size: 10px;
 }
+
 .hdp {
     justify-content: space-between;
+
+.search {
+    margin-top: 2%;
+    border: opacity('0');
 }
 
 .groupetitle {
@@ -136,6 +150,7 @@ footer {
     font-family: sans-serif;
 }
 
+
 select {
     font-size: .9rem;
     padding: 2px 5px;
@@ -143,3 +158,20 @@ select {
     border-bottom: 2px outset;
     margin-right: 20px;
 }
+.attribution {
+    font-size: 12px;
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+}
+.attribution:hover {
+    color: #1fa67a;
+}
+.main{
+    padding:62px 12px 12px 12px;
+}
+
